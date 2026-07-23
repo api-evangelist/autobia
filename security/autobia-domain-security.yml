@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: auto.sa
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 21 00:31:30 2026 GMT
+  hsts: false
+domains:
+- domain: auto.sa
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

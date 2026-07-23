@@ -1,7 +1,24 @@
 aid: autobia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autobia.png
 name: Autobia
-description: Autobia is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Autobia is a B2B e-commerce marketplace for the automotive aftermarket
+  in Saudi Arabia, connecting auto-parts retailers, workshops, and service centers
+  with wholesalers and dealers. The platform offers real-time pricing and instant
+  ordering across more than 20,000 spare parts from multiple brands, centralizing
+  sourcing to streamline procurement and improve supply-chain efficiency for the automotive
+  sector. Backed by Techstars, Autobia operates via a web platform and native iOS
+  and Android apps. No public developer API, documentation, or SDK is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/autobia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- Auto Parts
+- Marketplace
+- B2B
+- E-Commerce
+- Supply Chain
+- Procurement
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://auto.sa/
+  url: https://autobia.sa/
+- type: Support
+  url: https://api.whatsapp.com/send/?phone=966920033172
+- type: Twitter
+  url: https://twitter.com/autobia_sa
+- type: Instagram
+  url: https://www.instagram.com/autobia.sa
+- type: iOS
+  url: https://apps.apple.com/sa/app/id1661648763
+- type: Android
+  url: https://play.google.com/store/apps/details?id=com.autobia.autobia
+- type: DomainSecurity
+  url: security/autobia-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
